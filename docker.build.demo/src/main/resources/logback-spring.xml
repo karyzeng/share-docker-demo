@@ -5,7 +5,7 @@
          级别越小，打印信息越为详细，级别越大，打印信息越为简略 -->
     <!--定义日志文件的存储地址 -->
     <!-- 日志输出地址win和linux不同，win建议指定绝对路径，linux使用../logs -->
-    <property name="LOG_HOME" value="../logs/" />
+    <property name="LOG_HOME" value="./logs" />
     <!-- 日志文件的最大大小 -->
     <property name="LOG_MAX_SIZE" value="1024MB" />
     <!-- 日志文件的最大大小 -->
